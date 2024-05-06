@@ -114,15 +114,7 @@
             tapping-term-ms = <200>;
             bindings = <&to DEFAULT>, <&to DEFAULT>, <&to UPPER>;
         };
-glb: mod_tap_glo {
-	      compatible = "zmk,behavior-hold-tap";
-	      #binding-cells = <2>;
-	      flavor = "tap-preferred";
-	      tapping-term-ms = <200>;
-	      quick-tap-ms = <125>;
-	      require-prior-idle-ms = <125>;
-	      bindings = <&kp>, <&glo>;
-	};
+
         // Credit: Drexel Macintosh
         // mtt expects LS(letter) letter to recreate BlackBerry's tap for lowercase and hold for uppercase behavior.
         mtt: mod_tap_tap {
