@@ -52,7 +52,7 @@
                  &mkp LCLK                                                                                          &mkp RCLK
     &kp CLCK                &kp LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &kp TAB
     &mt Q LS(Q)        &mt W LS(W)      &mt E LS(E)       &mt R LS(R)     &mt T LS(T)         &mt Y LS(Y)             &mt U LS(U)            &mt I LS(I)            &mt O LS(O)            &mt P LS(P)
-    &mt A LS(A)        &mt S LS(S)      &mt D LS(D)       &mt F LS(F)     &mt G LS(G)         &mt H LS(H)             &mt J LS(J)            &my K LS(K)            &my L LS(L)            &kp BSPC
+    &mt A LS(A)        &mt S LS(S)      &mt D LS(D)       &mt F LS(F)     &mt G LS(G)         &mt H LS(H)             &mt J LS(J)            &mt K LS(K)            &mt L LS(L)            &kp BSPC
     &kp LALT    &mt Z LS(Z)      &mt X LS(X)       &mt C LS(C)     &mt V LS(V)         &mt B LS(B)             &mt N LS(N)            &mt M LS(M)            &kp DLLR         &kp ENTER
     &kp LSHFT               &kp 0                            &kp SPACE                          &tog SYM                          &kp RSHFT
             >;
