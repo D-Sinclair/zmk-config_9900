@@ -63,7 +63,7 @@
 
             bindings = <        
                  &kp C_VOL_UP                                                                                       &kp C_VOL_DN
-    &kp PSCRN               &kp C_AC_SEARCH                     &mkp LCLK                          &kp F5                            &kp F12 
+    &none               &none                     &mkp LCLK                          &mkp RCLK                            &none 
     &kp HASH     &kp N1     &kp N2      &kp N3    &mt LBKT LPAR &mt RBKT RPAR     &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
     &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp DEL
     &kp LALT    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &kp C_MUTE       &kp ENTER
@@ -78,8 +78,8 @@
     &none            &none                             &td0                           &bt BT_SEL 2                     &none
     &bt BT_SEL 1        &bt BT_SEL 2     &bt BT_SEL 3       &sys_reset &ext_power EP_TOG &none         &kp LT           &none          &none         &none
     &none     &none   &none   &none      &none          &none      &kp LBRC         &kp RBRC        &none        &bt BT_CLR
-    &kp LSHFT    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
-    &kp LALT               &bt BT_SEL 0                                 &hm OUT_TOG SPACE              &tog SYM                         &tog UPPER
+    &kp LALT    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
+    &kp LSHFT               &bt BT_SEL 0                                 &hm OUT_TOG SPACE              &tog SYM                         &tog UPPER
             >;
         };
     };
